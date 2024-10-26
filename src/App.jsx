@@ -12,6 +12,7 @@ import Tech from "./sections/Tech";
 import Cursor from "./components/Cursor";
 import Works from "./sections/Works";
 import CounterPage from "./components/CounterPage";
+import Whatsapp from "./components/Whatsapp";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Clients />
         <Tech />
         <Contact />
+        <Whatsapp />
         <Footer />
       </div>
     </main>

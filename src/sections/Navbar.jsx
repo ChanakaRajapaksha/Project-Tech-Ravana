@@ -32,9 +32,13 @@ const Navbar = () => {
                 <div className="flex items-center justify-between py-5 mx-auto c-space">
                     <a
                         href="/"
-                        className="outline-none text-neutral-400 font-bold text-xl hover:text-white transition-colors"
+                        className="outline-none"
                     >
-                        TechRavana
+                        <img 
+                            src="/assets/logo.png"
+                            alt="logo"
+                            className="w-[120px] object-contain"
+                        />
                     </a>
                     <button
                         onClick={toggleMenu}

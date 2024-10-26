@@ -57,7 +57,7 @@ export const myProjects = [
         title: 'Web Design & Development',
         desc: "We don't just build websites—we craft engaging, high- performing digital experiences that capture attention and deliver results.Whether you need a sleek personal site, an interactive platform, or a powerful business solution, we bring your vision to life with modern designs and cutting - edge technology.Your online presence deserves the best, and we're here to make it happen. Let us transform your ideas into a stunning and functional reality!",
         subdesc:
-            'We leverage powerful technologies like React, Next.js, Node.js, Express, Laravel, Java, and Spring Boot to ensure your website or application is robust, scalable, and future-ready. With a focus on both performance and aesthetics, our team creates solutions tailored to your needs, helping you stand out and succeed in the digital world.',
+            'We leverage powerful technologies like React, Next.js, Node.js, Express, Laravel, Java, and Spring Boot to ensure your website or application is robust, scalable, and future-ready. With a focus on both performance and aesthetics, our team creates solutions tailored to your needs, helping you stand out and succeed in the digital world',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
@@ -74,8 +74,8 @@ export const myProjects = [
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'JavaScript',
+                path: '/assets/JavaScript.svg',
             },
             {
                 id: 3,
@@ -84,18 +84,28 @@ export const myProjects = [
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'NodeJS',
+                path: '/assets/NodeJS-Dark.svg',
+            },
+            {
+                id: 5,
+                name: 'SpringBoot',
+                path: '/assets/Spring-Dark.svg',
+            },
+            {
+                id: 6,
+                name: 'Laravel',
+                path: '/assets/Laravel-Dark.svg',
             },
         ],
     },
     {
         title: 'Mobile App Development',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        desc: "We specialize in creating custom mobile apps that combine sleek design with outstanding functionality. Whether you're looking to launch a brand- new app or enhance an existing one, we turn your ideas into engaging, high - quality mobile experiences that capture attention and drive results.Your app deserves to stand out, and we're here to make that happen",
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+            'With powerful technologies like React Native, Flutter, Java, and Android Studio, we ensure your app is built for performance, reliability, and scalability. Our experienced team crafts solutions optimized for both iOS and Android, with seamless navigation, beautiful interfaces, and top-tier security. We’re committed to delivering mobile solutions that keep your users engaged and help you make a lasting impact in the mobile landscape',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        logo: '/assets/mobile.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -110,26 +120,31 @@ export const myProjects = [
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Flutter',
+                path: '/assets/Flutter-Dark.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Java',
+                path: '/assets/Java-Dark.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Android Studio',
+                path: '/assets/AndroidStudio-Dark.svg',
+            },
+            {
+                id: 5,
+                name: 'Firebase',
+                path: '/assets/Firebase-Dark.svg',
             },
         ],
     },
     {
         title: 'eCommerce Development',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        desc: "We build customized eCommerce platforms designed to provide an exceptional shopping experience. Whether you're launching a new store or enhancing your current platform, our team is dedicated to creating secure, user- friendly, and visually captivating online stores that help your business grow and engage customers",
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+            'Using advanced technologies like the MERN Stack, WordPress, and Docker, we deliver high-performance, scalable solutions tailored to your unique needs. Our eCommerce services cover everything from intuitive product displays and secure payment gateways to robust inventory management and responsive designs that adapt seamlessly across devices. With a focus on speed, security, and scalability',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
@@ -148,26 +163,36 @@ export const myProjects = [
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'NextJs',
+                path: '/assets/NextJS-Dark.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Express',
+                path: '/assets/ExpressJS-Dark.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'NodeJS',
+                path: '/assets/NodeJS-Dark.svg',
+            },
+            {
+                id: 5,
+                name: 'Mongo',
+                path: '/assets/MongoDB.svg',
+            },
+            {
+                id: 6,
+                name: 'Wordpress',
+                path: '/assets/Wordpress.svg',
             },
         ],
     },
     {
         title: 'UI / UX Design',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        desc: 'We specialize in creating visually stunning and intuitive user experiences that make a lasting impact. Our UI/UX design team focuses on understanding your brand and audience to design interfaces that are not only beautiful but also easy to navigate, ensuring users have an engaging and seamless experience from start to finish',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+            'Using industry-leading tools like Figma, Adobe XD, and Photoshop, we move from initial wireframes to interactive prototypes and polished final designs, ensuring each stage of development is aligned with your vision. We focus on responsive, user-centered design principles, crafting layouts that are optimized for both desktop and mobile experiences. With an emphasis on usability and visual consistency, we transform your ideas into professional designs',
         texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo4.png',
         logoStyle: {
@@ -179,31 +204,31 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Figma',
+                path: '/assets/Figma-Dark.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'AdobeXD',
+                path: '/assets/adobe.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Photoshop',
+                path: '/assets/Photoshop.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Illustrator',
+                path: '/assets/Illustrator.svg',
             },
         ],
     },
     {
         title: 'Post System Development',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+        desc: 'we create efficient and reliable post system solutions that streamline communication, information sharing, and content management. Our team is dedicated to building custom, user-friendly post systems that enhance productivity, automate workflows, and keep users connected seamlessly',
         subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+            'Leveraging the power of Java, we develop robust and scalable systems designed to handle high volumes of data with ease. From secure message handling and real-time updates to flexible content management features, our solutions prioritize performance, security, and usability. With a focus on customization and scalability, our post system development services help you efficiently manage and share information in real time, tailored to meet the specific needs of your organization',
         texture: '/textures/project/project5.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
@@ -215,23 +240,90 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Java',
+                path: '/assets/Java-Dark.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'MySQL',
+                path: '/assets/MySQL-Dark.svg',
+            },
+        ],
+    },
+    {
+        title: 'AI & Machine Learning Solutions',
+        desc: "We harness the power of AI and machine learning to develop intelligent, data-driven solutions that transform your business. Our team specializes in creating custom AI applications, from predictive analytics to image and speech recognition, designed to solve complex problems and unlock new insights for your organization",
+        subdesc:
+            'Using advanced tools and technologies like Python, Google Colab, TensorFlow, OpenCV, and PyTorch, we build models that are both accurate and scalable. From training neural networks to deploying machine learning algorithms, our solutions cover everything from prototyping to production, ensuring seamless integration with your existing systems. Let us help you leverage the potential of AI to drive smarter decision-making and accelerate innovation',
+        texture: '/textures/project/project3.mp4',
+        logo: '/assets/app-development.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Python',
+                path: '/assets/Python-Dark.svg',
+            },
+            {
+                id: 2,
+                name: 'PyTorch',
+                path: '/assets/PyTorch-Dark.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'TensorFlow',
+                path: '/assets/TensorFlow-Dark.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'OpenCV',
+                path: '/assets/opencv.png',
+            },
+            {
+                id: 5,
+                name: 'Colab',
+                path: '/assets/colab.png',
+            },
+        ],
+    },
+    {
+        title: 'DevOps & Automation',
+        desc: "Our DevOps and Automation services streamline development, deployment, and operational processes to accelerate delivery and enhance efficiency. We integrate DevOps best practices with automated workflows to minimize downtime, reduce errors, and enable continuous delivery, ensuring that your applications run smoothly and adapt quickly to changing needs",
+        subdesc:
+            'Using powerful tools like Docker, Kubernetes, Jenkins, and Ansible, we build scalable CI/CD pipelines that automate testing, deployment, and monitoring. Our approach focuses on creating a robust infrastructure and seamless collaboration between development and operations teams. From infrastructure as code to automated security checks, our DevOps solutions drive consistency, reliability, and agility, empowering your business to innovate faster',
+        texture: '/textures/project/project2.mp4',
+        logo: '/assets/project-logo2.png',
+        logoStyle: {
+            backgroundColor: '#13202F',
+            border: '0.2px solid #17293E',
+            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Docker',
+                path: '/assets/Docker.svg',
+            },
+            {
+                id: 2,
+                name: 'Kubernetes',
+                path: '/assets/Kubernetes.svg',
+            },
+            {
+                id: 3,
+                name: 'Jenkins',
+                path: '/assets/Jenkins.svg',
+            },
+            {
+                id: 4,
+                name: 'Ansible',
+                path: '/assets/Ansible.svg',
             },
         ],
     },
