@@ -13,11 +13,13 @@ import Cursor from "./components/Cursor";
 import Works from "./sections/Works";
 import CounterPage from "./components/CounterPage";
 import Whatsapp from "./components/Whatsapp";
+import BackgroundAudio from "./components/BackgroundAudio";
 
 const App = () => {
   return (
     <main>
       <Cursor />
+      <BackgroundAudio />
       <Navbar />
       <Hero />
       <div className="max-w-[1400px] mx-auto relative">

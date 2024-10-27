@@ -21,7 +21,11 @@ const About = () => {
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container relative">
-                        <img src="assets/grid1.png" alt="grid-1" className="w-full h-full object-contain absolute inset-0 opacity-35 z-0" />
+                        <img 
+                            src="assets/grid1.png" 
+                            alt="grid-1" 
+                            className="w-[200px] object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-35 z-0" 
+                        />
 
                         <div className='relative z-10'>
                             <p className="grid-headtext">Hi, We are TechRavana</p>
@@ -34,7 +38,7 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+                        <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain opacity-40" />
 
                         <div>
                             <p className="grid-headtext">Tech Stack</p>

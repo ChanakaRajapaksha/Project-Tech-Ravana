@@ -37,7 +37,7 @@ const Navbar = () => {
                         <img 
                             src="/assets/logo.png"
                             alt="logo"
-                            className="w-[120px] object-contain"
+                            className="sm:w-[190px] object-contain w-[120px]"
                         />
                     </a>
                     <button
