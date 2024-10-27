@@ -226,7 +226,7 @@ export const myProjects = [
     },
     {
         title: 'Post System Development',
-        desc: 'we create efficient and reliable post system solutions that streamline communication, information sharing, and content management. Our team is dedicated to building custom, user-friendly post systems that enhance productivity, automate workflows, and keep users connected seamlessly',
+        desc: 'We create efficient and reliable post system solutions that streamline communication, information sharing, and content management. Our team is dedicated to building custom, user-friendly post systems that enhance productivity, automate workflows, and keep users connected seamlessly',
         subdesc:
             'Leveraging the power of Java, we develop robust and scalable systems designed to handle high volumes of data with ease. From secure message handling and real-time updates to flexible content management features, our solutions prioritize performance, security, and usability. With a focus on customization and scalability, our post system development services help you efficiently manage and share information in real time, tailored to meet the specific needs of your organization',
         texture: '/textures/project/project5.mp4',

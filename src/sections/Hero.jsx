@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { PerspectiveCamera, Ring } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
+import { Link } from 'react-scroll';
 
 import Target from '../components/Target';
 import ReactLogo from '../components/ReactLogo';
@@ -22,7 +23,7 @@ const Hero = () => {
     const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
     return (
-        <section className="min-h-screen w-full flex flex-col relative">
+        <section className="min-h-screen w-full flex flex-col relative" id="home">
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
                 <p
                     className="sm:text-3xl text-2xl text-white font-bold font-generalsans text-center"
@@ -60,13 +61,14 @@ const Hero = () => {
                 </Canvas>
             </div>
 
-            <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
-                <a
-                    href='#about'
-                    className='w-fit'
-                >
-                    <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
-                </a>
+            <div className='absolute bottom-7 left-0 right-0 c-space'>
+                <Link to='about' smooth={true} duration={500}>
+                    <Button 
+                        name="Let's work together" 
+                        isBeam 
+                        containerClass="sm:w-fit w-full sm:min-w-96" 
+                    />
+                </Link>
             </div>
         </section>
     )

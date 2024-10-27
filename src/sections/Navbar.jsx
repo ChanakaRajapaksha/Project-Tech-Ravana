@@ -31,11 +31,11 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="flex items-center justify-between py-5 mx-auto c-space">
                     <a
-                        href="/"
+                        href="/home"
                         className="outline-none"
                     >
                         <img 
-                            src="/assets/logo.png"
+                            src="/assets/final.png"
                             alt="logo"
                             className="sm:w-[190px] object-contain w-[120px]"
                         />
