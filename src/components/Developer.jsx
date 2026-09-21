@@ -15,20 +15,30 @@ const Developer = ({ animationName = 'idle', ...props }) => {
     const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx');
     const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx');
 
-    idleAnimation[0].name = 'idle';
-    saluteAnimation[0].name = 'salute';
-    clappingAnimation[0].name = 'clapping';
-    victoryAnimation[0].name = 'victory';
+    const animations = React.useMemo(() => {
+        const clips = [
+            { clip: idleAnimation[0], name: 'idle' },
+            { clip: saluteAnimation[0], name: 'salute' },
+            { clip: clappingAnimation[0], name: 'clapping' },
+            { clip: victoryAnimation[0], name: 'victory' },
+        ];
 
-    const { actions } = useAnimations(
-        [idleAnimation[0], saluteAnimation[0], clappingAnimation[0], victoryAnimation[0]],
-        group,
-    );
+        clips.forEach(({ clip, name }) => {
+            clip.name = name;
+        });
+
+        return clips.map(({ clip }) => clip);
+    }, [idleAnimation, saluteAnimation, clappingAnimation, victoryAnimation]);
+
+    const { actions } = useAnimations(animations, group);
 
     useEffect(() => {
-        actions[animationName].reset().fadeIn(0.5).play();
-        return () => actions[animationName].fadeOut(0.5);
-    }, [animationName]);
+        const action = actions[animationName];
+        if (!action) return undefined;
+
+        action.reset().fadeIn(0.5).play();
+        return () => action.fadeOut(0.5);
+    }, [animationName, actions]);
 
     return (
         <group ref={group} {...props} dispose={null}>
@@ -100,5 +110,9 @@ const Developer = ({ animationName = 'idle', ...props }) => {
 };
 
 useGLTF.preload('/models/animations/developer.glb');
+useFBX.preload('/models/animations/idle.fbx');
+useFBX.preload('/models/animations/salute.fbx');
+useFBX.preload('/models/animations/clapping.fbx');
+useFBX.preload('/models/animations/victory.fbx');
 
 export default Developer;
